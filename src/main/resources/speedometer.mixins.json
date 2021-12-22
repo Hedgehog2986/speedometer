@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.hedgehog2986.speedometer.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "mixins": [
+    "HudMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

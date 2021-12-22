@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "speedometer",
+  "version": "${version}",
+  "name": "Speedometer",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/speedometer/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.hedgehog2986.speedometer.client.SpeedometerClient"
+    ],
+    "main": [
+      "com.hedgehog2986.speedometer.Speedometer"
+    ]
+  },
+  "mixins": [
+    "speedometer.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.12.12",
+    "fabric": "*",
+    "minecraft": "1.17.1"
+  }
+}
